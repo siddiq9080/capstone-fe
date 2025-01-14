@@ -8,7 +8,7 @@ const PageNotFound = () => {
     <>
       <MetaData title={"Page Not Found"} />;
       <Header />
-      <div className="pt-20">
+      <div className="py-56">
         <h1 className="text-center">Page Not found </h1>
 
         <Link to="/">Go to Home page</Link>
