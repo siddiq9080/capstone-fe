@@ -55,7 +55,7 @@ const Login = () => {
   }
 
   return (
-    <div className="font-playwrite pt-24 px-6 md:px-10 border">
+    <div className="font-playwrite mt-24 py-10 mx-5 card">
       <MetaData title={"Login"} />
       <h1 className="text-center text-2xl font-bold mb-6">Login</h1>
       <div className="flex flex-col md:flex-row items-center justify-center">
@@ -133,23 +133,14 @@ const Login = () => {
                 {loading ? "Logging in..." : "Login"}
               </button>
             </div>
+            <p className="mt-4 text-center">
+              Don&apos;t have an account?{" "}
+              <Link to="/register" className="text-blue-500 hover:underline">
+                Register
+              </Link>{" "}
+              here.
+            </p>
           </form>
-          <p className="mt-4 text-center">
-            Don&apos;t have an account?{" "}
-            <Link to="/register" className="text-blue-500 hover:underline">
-              Register
-            </Link>{" "}
-            here.
-          </p>
-        </div>
-
-        {/* Image Section */}
-        <div className="hidden md:block w-full md:w-1/2">
-          <img
-            src="https://img.freepik.com/free-vector/access-control-system-abstract-concept_335657-3180.jpg?ga=GA1.1.2038253188.1720242350&semt=ais_hybrid"
-            alt="Login Illustration"
-            className="rounded-lg shadow-lg"
-          />
         </div>
       </div>
     </div>

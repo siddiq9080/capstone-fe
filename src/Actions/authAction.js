@@ -117,23 +117,18 @@ export const logoutApi = async (dispatch) => {
   }
 };
 
-// VERIFY EMAIL
+// verify email
 
 export const emailVerifyApi = async (useremail) => {
   try {
-    const response = await axios.post(`${BE_URL}/verify-email`, useremail, {
-      headers: {
-        "Content-Type": "application/json",
-      },
-      withCredentials: true,
-    });
+    const response = await axios.post(`${BE_URL}/verify-email`, useremail);
     return response.data;
   } catch (err) {
     throw new Error(err.response.data.msg);
   }
 };
 
-// RESET PASSWORD
+//Reset password
 
 export const resetPasswordApi = async (token, resetpassword) => {
   try {

@@ -61,9 +61,9 @@ const Register = () => {
   }
 
   return (
-    <div className="font-playwrite">
-       <MetaData title={"Register"} />
-      <h1 className="text-center font-bold">Register</h1>
+    <div className="font-playwrite card mt-16 py-5 w-10/12 mx-auto">
+      <MetaData title={"Register"} />
+      <h1 className="text-center font-bold  ">Register</h1>
       <form
         onSubmit={formik.handleSubmit}
         className="w-11/12 md:w-7/12 mx-auto"
@@ -163,14 +163,15 @@ const Register = () => {
             </p>
           )}
         </div>
-
-        <button
-          type="submit"
-          className="btn btn-primary mt-4"
-          disabled={loading}
-        >
-          {loading ? "Registering..." : "Register"}
-        </button>
+        <div className="mx-auto">
+          <button
+            type="submit"
+            className="btn btn-primary w-9/12   mt-4"
+            disabled={loading}
+          >
+            {loading ? "Registering..." : "Register"}
+          </button>
+        </div>
       </form>
       <p className="mt-4 text-center">
         Already have an account?{" "}
