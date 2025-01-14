@@ -76,7 +76,7 @@ const UserOrder = () => {
       <Header />
 
       <div className="px-7 font-playwrite">
-        <h1 className="pt-28 ">My Bookings</h1>
+        <h1 className="pt-32 ">My Bookings</h1>
         <MDBDataTable
           className="px-3"
           bordered

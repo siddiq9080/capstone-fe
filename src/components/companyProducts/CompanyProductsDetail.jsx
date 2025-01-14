@@ -34,7 +34,7 @@ const CompanyProductsDetail = () => {
       <MetaData title={"Services details"} />
       <Header />
       {product ? (
-        <div className="container font-playwrite mx-auto pt-24">
+        <div className="container font-playwrite mx-auto pt-32">
           <div className="row">
             <div key={product._id}>
               <ProductDetailCard {...product} companyId={companyId} />

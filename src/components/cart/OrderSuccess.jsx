@@ -6,9 +6,9 @@ import MetaData from "../Layout/MetaData";
 const OrderSuccess = () => {
   return (
     <div>
-       <MetaData title={"Booking success"} />
+      <MetaData title={"Booking success"} />
       <Header />
-      <div className="row justify-content-center font-playwrite">
+      <div className="row pt-32 justify-content-center font-playwrite">
         <div className="col-6 mt-5 pb-5  text-center">
           <img
             className="my-5 img-fluid d-block mx-auto animate-pulse"

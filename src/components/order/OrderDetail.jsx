@@ -33,7 +33,7 @@ const OrderDetail = () => {
       {loading ? (
         <Loader />
       ) : (
-        <div className="row d-flex justify-content-between container font-playwrite">
+        <div className="row d-flex pt-18 justify-content-between container font-playwrite">
           <div className="col-12 col-lg-8 mx-auto mt-5 order-details">
             <h6 className="my-5">Booking: #{orderDetail._id}</h6>
 

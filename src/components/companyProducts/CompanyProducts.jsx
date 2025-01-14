@@ -33,7 +33,7 @@ const CompanyProducts = () => {
     <MetaData title={"Services"} />
       <Header />
 
-      <div className="font-playwrite pt-28">
+      <div className="font-playwrite pt-32">
         <div className="container mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {products.map((product) => (

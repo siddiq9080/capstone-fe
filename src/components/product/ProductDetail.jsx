@@ -119,7 +119,7 @@ const ProductDetail = () => {
     <>
       <MetaData title={"service Detail"} />
       <Header />
-      <div className="font-playwrite container container-fluid pt-28">
+      <div className="font-playwrite container container-fluid pt-32">
         <div className="card p-3 mb-4 shadow">
           <div className="row d-flex justify-content-around">
             <div className="col-12 col-md-5 img-fluid">

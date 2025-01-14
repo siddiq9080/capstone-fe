@@ -14,7 +14,7 @@ const Home = () => {
         <section className="bg-slate-300 py-10 my-4">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-3xl font-bold mb-4">Why Choose CleanEase?</h1>
-            <p className="text-lg text-gray-700">
+            <p className="text-lg text-gray-700 px-5">
               CleanEase is an online platform offering personalized cleaning
               services with flexible scheduling and secure payment options. It
               allows users to easily book, manage, and review cleaning

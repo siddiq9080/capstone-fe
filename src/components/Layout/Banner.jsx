@@ -1,6 +1,6 @@
 const Banner = () => {
   return (
-    <div className="pt-24 md:pt-16 md:px-8 rounded-xl font-playwrite bg-slate-50">
+    <div className="pt-32 md:pt-16 md:px-8 rounded-xl font-playwrite bg-slate-50">
       <div className="container mx-auto rounded-md">
         <div className="flex flex-wrap items-center">
           {/* Image Section */}

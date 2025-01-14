@@ -23,7 +23,7 @@ function UserProfile() {
      <MetaData title={"My Profile"} />
       <Header />
       <div className="container">
-        <div className="row  text-center pt-28 pb-64">
+        <div className="row  text-center pt-48 md:pt-24 pb-64">
           <div className="col-12 ">
             <h4 className="font-bold">Full Name</h4>
             <p>{user.name}</p>
