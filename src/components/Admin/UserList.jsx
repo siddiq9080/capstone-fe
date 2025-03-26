@@ -12,7 +12,7 @@ import Header from "../Layout/Header";
 import Footer from "../Layout/Footer";
 import MetaData from "../Layout/MetaData";
 
-const UserList = ({ someProp = "defaultValue" }) => {
+const UserList = () => {
   const {
     users = [],
     loading = true,

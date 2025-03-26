@@ -138,7 +138,7 @@ const Login = () => {
               <Link to="/register" className="text-blue-500 hover:underline">
                 Register
               </Link>{" "}
-              here.
+              here. 
             </p>
           </form>
         </div>
